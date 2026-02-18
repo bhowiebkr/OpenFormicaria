@@ -17,6 +17,42 @@ See the [Ant Species Guide](ant_species.md) for a full compatibility table and c
 - **Hard filament** (PLA, PETG, or similar) — for all modules and formicaria
 - **Flexible filament** (TPU, Flex, or similar) — required for all connectors; also recommended for Portal feeder lids
 
+## Print Settings
+
+### Modules and Formicaria (hard filament — PLA, PETG, or similar)
+
+| Setting | Value |
+| --- | --- |
+| Layer height | 0.2mm |
+| Infill | 15% |
+| Walls (perimeters) | 3 |
+| Supports | Not required |
+| Material | PLA, PETG, or any rigid filament |
+
+> **Tip:** Print modules in a colour that contrasts with your ants — light grey or white works well for most species. Avoid very dark colours if your ants are light-coloured (Lasius, Formica), as they become nearly impossible to spot without strong side-lighting.
+>
+> **Formicaria note:** If you are using a heat cable inside the basin, PETG is the safer choice — PLA can warp if the cable runs hot. For modules without heating, PLA is fine.
+
+### Connectors (flexible filament — TPU or similar)
+
+| Setting | Value |
+| --- | --- |
+| Layer height | 0.2mm |
+| Infill | 15% |
+| Walls (perimeters) | 3 |
+| Supports | Required for tube connectors only; not needed for others |
+| Material | TPU or other flexible filament — **do not substitute rigid filament** |
+
+TPU compresses slightly when fitted into a port, forming a tight seal. Rigid filament connectors will not seal properly and create escape gaps.
+
+**TPU print tips:**
+
+- Print slowly — 20–30mm/s. Speed is the most common cause of TPU failure. If you see stringing or underextrusion, reduce speed before changing anything else.
+- Direct drive extruder is strongly preferred. Bowden setups can work but require very dialled-in retraction settings (1–2mm, 10–20mm/s, or disabled).
+- If your filament has been stored open, dry it before printing — TPU is hygroscopic and absorbs moisture, which causes popping and poor layer adhesion.
+
+See [Tips & References](research_notes.md) for a full TPU settings table.
+
 ## Parts Overview
 
 OpenFormicaria has three categories of parts. Each links to a dedicated page with print settings and part descriptions:
