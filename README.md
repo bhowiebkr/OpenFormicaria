@@ -8,13 +8,15 @@ An open-source modular ant formicarium system with interchangeable, space-saving
 
 ## Documentation
 
-- [Getting Started](docs/getting_started.md)
-- [Ant Species Guide](docs/ant_species.md)
-- [Connectors](docs/connectors.md)
-- [Modules](docs/modules.md)
-- [Formicaria](docs/formicaria.md)
-- [How to Contribute](docs/contrib.md)
-- [Tips & References](docs/research_notes.md)
+| Page | Description |
+| --- | --- |
+| [Getting Started](docs/getting_started.md) | What to print first, required materials, and starter kit lists |
+| [Ant Species Guide](docs/ant_species.md) | Which ant species work well with this system and minimum size requirements |
+| [Connectors](docs/connectors.md) | Every connector type explained — when to use each one |
+| [Modules](docs/modules.md) | Portal and Gateway outworld modules |
+| [Formicaria](docs/formicaria.md) | Nest chambers — sizes, inserts, heating, and humidity |
+| [How to Contribute](docs/contrib.md) | Design standards, connector specs, and how to submit new parts |
+| [Tips & References](docs/research_notes.md) | Supplementary care tips, filament advice, and community references |
 
 ---
 
@@ -51,8 +53,8 @@ All modules print in PLA or any hard filament at 0.2mm layer height and 15% infi
 | Module | Outer Size | Ports | Plexiglass |
 | --- | --- | --- | --- |
 | **Portal** | 70×40×20mm | 4 | 26×62×2mm |
-| **4xGateway** | 35×35×20mm | 4 | 27×27mm |
-| **6xGateway** | 70×35×20mm | 6 | 62×27mm |
+| **4xGateway** | 35×35×20mm | 4 | 27×27×2mm |
+| **6xGateway** | 70×35×20mm | 6 | 62×27×2mm |
 
 **Portal** — The starting module. Connect your founding test tube here. Features two feeding holes (lids should be printed in TPU to press-fit properly), air vents, and a cover lid.
 
@@ -66,7 +68,7 @@ All modules print in PLA or any hard filament at 0.2mm layer height and 15% infi
 
 ### Formicaria (Nest Chambers)
 
-Each formicarium consists of a **basin** (the nest body with a water reservoir and optional heat cable channel) and a **lid**. The insert — the part the ants actually live in — is separate, allowing different tunnel layouts for different species.
+Each formicarium is a three-part assembly: an **insert** (the nest body the ants live in, with tunnels and chambers), a **basin** (slides underneath — holds the water reservoir and heat cable channel), and a **lid** (covers the top to keep the interior dark). The insert is printed separately from the basin, so you can swap in different tunnel layouts for different species without reprinting everything.
 
 | Size | Outer Size | Plexiglass |
 | --- | --- | --- |
@@ -152,4 +154,4 @@ If you find the project useful, please consider supporting the original author o
 
 ## Contributing
 
-Contributions to the original project are welcome. See the full guide at [https://of.schemen.me/contrib/](https://of.schemen.me/contrib/). Pull requests to the upstream repo should target the **`devel`** branch.
+See [How to Contribute](docs/contrib.md) for design standards, connector specifications, and folder conventions. Pull requests should target the **`devel`** branch.

@@ -1,70 +1,106 @@
-# OpenFormicaria - Formicaria
+# Formicaria
 
-## General Features
+A formicarium is the **nest chamber** — the enclosed space where the ants actually live, raise brood, and house the queen. This is distinct from the [Modules](modules.md) (outworld/foraging spaces) and [Connectors](connectors.md) that link everything together.
 
-- Modular — any type of insert can be made for specific ant requirements and preferences
-- Water basin for hydration and humidity regulation
-- Heat cable channel
-- Cover to give the ants a dark environment
-- Plexiglass can be press fitted or secured via screws
+Each formicarium is a three-part assembly:
 
-Don't forget to print the basin and lid for your nest!
+1. **The insert** — the nest body itself, printed with ant tunnels and chambers carved into it. Sits in the middle.
+2. **The basin** — slides underneath the insert. Holds water (for humidity) and routes the heat cable. The basin is what raises the formicarium slightly higher than a flat module like the Portal, which is why a [Connector Raiser](connectors.md#connector-raiser) is needed for direct side-by-side connections.
+3. **The lid** — sits on top to keep the interior dark. Ants strongly prefer darkness for nesting.
+
+The plexiglass panel presses into a slot on the front face, giving you a view into the tunnels without disturbing the colony.
+
+## Print Settings
+
+- 0.2mm layer height
+- 15% infill
+- PLA, PETG, or any hard filament
+- Print the basin and lid in the same material as the insert
 
 ## Heating
 
-The formicarium basin has a built-in heat cable channel. Route the cable through this channel on **one side only** — never all the way around. This creates a temperature gradient so the ants can move between warmer brood-rearing areas and cooler zones, which is essential for healthy colony behaviour.
+The basin has a built-in channel for a heat cable. Route the cable through this channel on **one side only** — never all the way around. This creates a temperature gradient across the nest so ants can move between warmer brood-rearing zones and cooler resting areas, which is essential for healthy colony behaviour.
 
 Always use a thermostat with your heating element to prevent overheating. For most temperate species (Lasius, Formica, Camponotus), target **20–26°C** on the warm side.
 
-> Do not heat during winter if keeping a species that requires hibernation (most European species).
+> Do not heat during winter if keeping a species that requires hibernation — this applies to most European species.
 
 ## Humidity
 
-Fill the water basin regularly. Water evaporates slowly through the nest body to maintain humidity in the chambers — this is the primary hydration mechanism for the colony.
+Fill the basin with water regularly. It evaporates slowly up through the nest body, passively humidifying the chambers — this is the primary water source for the colony.
 
-- **Too dry:** Brood desiccates, ants appear lethargic, fewer eggs
-- **Too wet / mold visible:** Reduce watering frequency; ants will try to relocate brood to drier areas if conditions become dangerous
+- **Too dry:** Brood desiccates, ants appear lethargic, fewer eggs laid
+- **Too wet / mould visible:** Reduce watering frequency; ants will relocate brood to drier areas if conditions worsen
+
+---
 
 ## Formicaria Size S
 
-Small size formicarium, 70mm x 80mm x 20mm.
+The Size S is the starting nest for a small colony graduating from a test tube. It has room for a growing founding colony and connects directly into the rest of the system via CV2 ports.
 
-### Template Size S
+**Dimensions:** 70mm × 80mm × 20mm
+
+**Parts to print:**
+
+- 1x Insert (`CV2_OF_Formicarium_<style>_S.stl`)
+- 1x Basin (`OF_Formicarium_Basin_S.stl`)
+- 1x Lid (`OF_Formicarium_Lid_S.stl`)
+
+**Plexiglass:** 62mm × 62mm × 2mm. Can be press-fit or secured with M3 screws.
+
+### Template S
 
 ![Template S](img/15.jpg)
 
-Do it yourself with Photoshop and Microsoft 3D Builder!
+A blank insert — no ant pathways. Use this as the base for creating your own custom insert design. See [How to Contribute](contrib.md) for the Photoshop + 3D Builder workflow.
 
 ### Lasius S
 
 ![Lasius S](img/17.jpg)
 
-Lasius nest inspired insert.
+A ready-to-print insert with tunnel and chamber layout suited to *Lasius* and similar shallow-nesting species. Good starting point for most beginners.
 
-### Plexiglass sizing
-
-The glass cutout is 62mm x 62mm. Use **2mm thick** acrylic/plexiglass. If you want, you can use a small drill bit that fits M3 screws.
+---
 
 ## Formicaria Size M
 
-Medium size formicarium, 105mm x 115mm x 20mm.
+The Size M suits a colony that has outgrown the Size S — more floor area, more chambers, and more connector ports for expanding the setup further.
 
-### Template Size M
+**Dimensions:** 105mm × 115mm × 20mm
+
+**Parts to print:**
+
+- 1x Insert (`CV2_OF_Formicarium_<style>_M.stl`)
+- 1x Basin (`OF_Formicarium_Basin_M.stl`)
+- 1x Lid (`OF_Formicarium_Lid_M.stl`)
+
+**Plexiglass:** 97mm × 97mm × 2mm. Can be press-fit or secured with M3 screws.
+
+### Template M
 
 ![Template M](img/16.jpg)
 
-Do it yourself with Photoshop and Microsoft 3D Builder!
+A blank insert for custom designs at the M size. See [How to Contribute](contrib.md) for the workflow.
 
 ### Lasius M
 
 ![Lasius M](img/18.jpg)
 
-Lasius nest inspired insert.
+A ready-to-print *Lasius*-style insert at the larger size.
 
-### Plexiglass sizing
+---
 
-The glass cutout is 97mm x 97mm. Use **2mm thick** acrylic/plexiglass. If you want, you can use a small drill bit that fits M3 screws.
+## Custom Inserts
 
-## Other sizes
+Any insert style can be created for any size template. The workflow:
 
-- Coming soon!
+1. Open the PSD template from `Formicaria/Inserts/` in Photoshop (or any compatible editor)
+2. Draw your tunnel and chamber layout in black and white — black areas become the ant tunnels
+3. Import the result into Microsoft 3D Builder alongside the blank template STL and combine them
+4. Export the combined mesh as an STL
+
+The blank template STLs and PSD files are included in the repository so anyone can create species-specific layouts.
+
+## Other Sizes
+
+Additional sizes are planned for future releases.
