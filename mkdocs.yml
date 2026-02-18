@@ -1,12 +1,14 @@
 site_name: OpenFormicaria
 nav:
-    - Home: index.md
+    - Home: README.md
     - About: about.md
     - "User Guide":
        - Getting Started: getting_started.md
+       - Ant Species Guide: ant_species.md
        - Connectors: connectors.md
        - Modules: modules.md
        - Formicaria: formicaria.md
+       - Tips & References: research_notes.md
     - Contribute: 
         - How to contribute: contrib.md
     - License: license.md
