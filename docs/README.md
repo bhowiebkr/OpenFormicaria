@@ -39,3 +39,9 @@ All connectors use the CV2 system — a Hill/Rail/Groove locking mechanism that 
 ---
 
 See the [About](about.md) page for project background and license. To contribute parts or documentation, see [How to Contribute](contrib.md).
+
+---
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/schemen)
+
+*If you find the project useful, please consider supporting the original author.*

@@ -150,7 +150,9 @@ Add this once the colony needs a proper nest.
 
 This is a personal fork of the original OpenFormicaria project created by [schemen](https://github.com/schemen/OpenFormicaria). The upstream repository is the authoritative source for the latest designs and the official documentation at [https://of.schemen.me](https://of.schemen.me).
 
-If you find the project useful, please consider supporting the original author on [Buy Me a Coffee](https://www.buymeacoffee.com/schemen) — it goes a long way toward motivating continued development.
+If you find the project useful, please consider supporting the original author:
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/schemen)
 
 ## Contributing
 
