@@ -2,6 +2,8 @@
 
 All connectors must be printed in **TPU or a similar flexible material**.
 
+> **Escape prevention tip:** TPU compresses slightly when fitted, which helps seal the connector face better than rigid materials. For species with workers under 3mm, also apply a thin bead of aquarium-safe silicone along the inner edge of each plexiglass channel before seating the panel — this closes micro-gaps from print surface texture or slight warping.
+
 ## Print recommendation
 
 - 0.2mm layer height

@@ -23,6 +23,14 @@ All connectors **must** be printed in TPU or a similar flexible material.
 - [Modules](modules.md)
 - [Formicaria](formicaria.md)
 
+## Choosing Your Ants
+
+OpenFormicaria works best with ant species whose workers are **3mm or larger**. Very small ants (under 2mm) can slip through micro-gaps at the plexiglass panel edge and are not recommended for this system without additional sealing.
+
+For beginners, **Lasius niger** (black garden ant) is the most commonly recommended species — workers are 3–5mm, they are hardy, widely available in Europe, and their shallow disc-shaped nesting style suits the module format well. **Camponotus** (carpenter ants) are another great choice: large workers eliminate escape risk entirely.
+
+See the [Ant Species Guide](ant_species.md) for a full compatibility table and care requirements.
+
 ## Set suggestions and Ideas
 
 ### The Base Kit - A initial home
@@ -40,7 +48,7 @@ Here is a list of the items you should print for a base kit with a Portal. Once 
   - 1x Portal Lid
   - 26mm x 62mm x 2mm Plexiglass
 - 2x Separators
-- 3x Endpoint Blocker
+- 3x Blocking Endpoint
 - 2x Tube connectors fitting your test tube size
   - The second tube connector can be used to add water or lead to a proper outworld
 
@@ -57,6 +65,13 @@ Generally, I recommend printing the base kit anyway and expand from there.
 
 - 1x S Sized formicarium for your ants
   - 62mm x 62mm x 2mm Plexiglass
-- 3x Endpoint Blocker (4x if you want to connect via tubes)
-- 1x Connector Raiser (direct connect)
-- 1x Tube connector (tube connection)
+- 3x Blocking Endpoint (4x if you want to connect via tubes)
+- 1x Connector Raiser **or** 1x Tube Connector — use the Raiser for a direct side-by-side connection to the Portal, or a Tube Connector if you want to run tubing between them
+
+## Moving Ants from Test Tube to Formicarium
+
+When your colony is ready, **let the ants move themselves** — do not force them. Connect the test tube directly to the Portal or formicarium entrance using a tube connector, then leave the setup alone. The colony will relocate on their own within a few days.
+
+To encourage faster movement: shine a bright light on the test tube while keeping the formicarium covered and dark. Ants strongly prefer darkness and will move toward it.
+
+Remove the test tube only after all brood and the queen have settled into the new nest. Avoid disturbing the queen during the transition — stress can halt egg-laying for days.

@@ -9,10 +9,12 @@ An open-source modular ant formicarium system with interchangeable, space-saving
 ## Documentation
 
 - [Getting Started](docs/getting_started.md)
+- [Ant Species Guide](docs/ant_species.md)
 - [Connectors](docs/connectors.md)
 - [Modules](docs/modules.md)
 - [Formicaria](docs/formicaria.md)
 - [How to Contribute](docs/contrib.md)
+- [Tips & References](docs/research_notes.md)
 
 ---
 

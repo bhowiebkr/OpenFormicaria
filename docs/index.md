@@ -1,6 +1,6 @@
 # Welcome to OpenFormicaria
 
-This is a open source modular ant formicarium and home with simple space saving connectors.
+This is an open source modular ant formicarium and home with simple space saving connectors.
 
 ## Features overview
 
