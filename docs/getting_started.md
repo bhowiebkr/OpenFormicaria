@@ -2,7 +2,7 @@
 
 ## Download
 
-You can download all the parts on [Thingiverse](https://www.thingiverse.com/thing:4637707) or directly on the repository on [Github](https://github.com/schemen/OpenFormicaria) for the latest files. You can find the files in the corresponding `STL` folders.
+You can download all the parts on [Printables](https://www.printables.com/model/45114-openformicaria-a-modular-ant-housing-platform) or [Thingiverse](https://www.thingiverse.com/thing:4637707), or directly from the repository on [Github](https://github.com/schemen/OpenFormicaria) for the latest files. You can find the files in the corresponding `STL` folders.
 
 ## Required Materials
 

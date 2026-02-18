@@ -136,8 +136,9 @@ Add this once the colony needs a proper nest.
 
 ## Where to Download
 
+- **Printables:** [https://www.printables.com/model/45114-openformicaria-a-modular-ant-housing-platform](https://www.printables.com/model/45114-openformicaria-a-modular-ant-housing-platform)
 - **Thingiverse:** [https://www.thingiverse.com/thing:4637707](https://www.thingiverse.com/thing:4637707)
-- **GitHub (latest files):** STL files are in the `STL/` subfolder of each category (`Connectors/STL/`, `Modules/STL/`, `Formicaria/STL/`)
+- **GitHub (latest files):** [https://github.com/bhowiebkr/OpenFormicaria](https://github.com/bhowiebkr/OpenFormicaria) — STL files are in the `STL/` subfolder of each category (`Connectors/STL/`, `Modules/STL/`, `Formicaria/STL/`)
 
 ---
 
