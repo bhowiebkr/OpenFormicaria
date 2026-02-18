@@ -52,7 +52,7 @@ The Size S is the starting nest for a small colony graduating from a test tube. 
 
 ![Template S](img/15.jpg)
 
-A blank insert — no ant pathways. Use this as the base for creating your own custom insert design. See [How to Contribute](contrib.md) for the Photoshop + 3D Builder workflow.
+A blank insert — no ant pathways. Use this as your starting point for designing a custom tunnel layout. See the [Custom Inserts](#custom-inserts) section below.
 
 ### Lasius S
 
@@ -80,7 +80,7 @@ The Size M suits a colony that has outgrown the Size S — more floor area, more
 
 ![Template M](img/16.jpg)
 
-A blank insert for custom designs at the M size. See [How to Contribute](contrib.md) for the workflow.
+A blank insert for custom designs at the M size. See the [Custom Inserts](#custom-inserts) section below.
 
 ### Lasius M
 
@@ -92,14 +92,23 @@ A ready-to-print *Lasius*-style insert at the larger size.
 
 ## Custom Inserts
 
-Any insert style can be created for any size template. The workflow:
+Any tunnel layout can be designed for either size. The insert system is built around a two-step process: draw your layout as a black-and-white image, then combine it with the blank template STL in Microsoft 3D Builder.
 
-1. Open the PSD template from `Formicaria/Inserts/` in Photoshop (or any compatible editor)
-2. Draw your tunnel and chamber layout in black and white — black areas become the ant tunnels
-3. Import the result into Microsoft 3D Builder alongside the blank template STL and combine them
-4. Export the combined mesh as an STL
+**What you need:**
 
-The blank template STLs and PSD files are included in the repository so anyone can create species-specific layouts.
+- The blank template STL for your size (`CV2_OF_Formicarium_Template_S.stl` or `_M.stl` from `Formicaria/STL/CV2/`)
+- The PSD template for your size from `Formicaria/Inserts/` — open this in Photoshop or any image editor that supports layered files
+- Microsoft 3D Builder (free, Windows)
+
+**Workflow:**
+
+1. Open the PSD template in your image editor. It is sized and scaled to match the formicarium's interior footprint.
+2. Draw your tunnel and chamber layout on the canvas. Use pure **black** for the areas you want carved out (tunnels, chambers, galleries) and leave the rest **white**. The black areas will become the voids the ants live in.
+3. Export your design as a PNG or similar flat image.
+4. Open Microsoft 3D Builder. Import the blank template STL, then import your image as a relief/texture to combine with it. 3D Builder will extrude your black areas into the template as cavities.
+5. Export the combined result as an STL.
+
+If you create a new species-specific insert and want to share it, see [How to Contribute](contrib.md) for how to submit it to the project.
 
 ## Other Sizes
 
