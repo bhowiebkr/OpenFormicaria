@@ -1,57 +1,51 @@
 # OpenFormicaria - Connectors
 
-The images will be for CV2 mostly, though in most cases the information is valid for both version, if not explicitly said so.
+All connectors must be printed in **TPU or a similar flexible material**.
 
 ## Print recommendation
-### CV2 (recommended)
-You have to use TPU or a similar flexible material.
 
-* 0.2mm layer height is fine
-* 15% infill
-* Tube connectors require support, everything else can be printed without
+- 0.2mm layer height
+- 15% infill
+- Tube connectors require supports; everything else prints without
 
-### CV1
-PLA is fine for most connectors, though the tube connector will not work properly with PLA.
+## Main Connector
 
-* 0.2mm layer height is fine
-* 15% infill
-* Tube connectors require support as well as has to be printed with TPU, everything else can be printed without supports
+![Main Connector](img/3.jpg)
 
-## Main Connector 
-![CV2](img/3.jpg)
+This connector connects two modules together.
 
-This connector connects two modules together, simple enough.
+## Connector Blocker
 
-## Connector blocker
-![CV2](img/4.jpg)
+![Connector Blocker](img/4.jpg)
 
-Same formfactor as the Main connector but it blocks the path.
+Same form factor as the Main Connector but blocks the path.
 
 ## Tube Connectors for 10mm, 12mm and 14mm inner circumference
-![CV2](img/5.jpg)
 
-A variation of tube connectors. The test-/tubes go over the connector, not in.
+![Tube Connectors](img/5.jpg)
 
-**IMPORTANT**! Do not print this with PLA, use a flexible filament.
+A variation of tube connectors. The test/tubes go over the connector, not in.
 
-## Tube Connectors on an 90° angle for 10mm, 12mm and 14mm inner circumference
-![CV2](img/6.jpg)
+## Tube Connectors at a 90° angle for 10mm, 12mm and 14mm inner circumference
 
-A variation of tube connectors. The test-/tubes go over the connector, not in.
+![Tube Connectors 90°](img/6.jpg)
 
-IMPORTANT! Do not print this with PLA, use a flexible filament.
+A variation of tube connectors at a right angle. The test/tubes go over the connector, not in.
 
 ## Blocking Endpoint
-![CV2](img/7.jpg)
 
-A bit nicer looking than a block connector but cannot be used to connect two modules
+![Blocking Endpoint](img/7.jpg)
 
-## Connector Raiser 
-![CV2](img/8.jpg)
+A nicer-looking dead-end cap for unused ports. Cannot be used to connect two modules.
 
-This connector allows you to connect a modules like a Portal to a formicarium which is higher above due to the basin. Now there is no more floating modules.
+## Connector Raiser
 
-## Separator (CV2 only)
-![CV2](img/9.jpg)
+![Connector Raiser](img/8.jpg)
 
-This "connector" allows you to separate two connected modules and block both entries. I recommend to print at least a pair of these for your setup.
+Allows you to connect a module like a Portal to a formicarium which sits higher due to its basin, so there are no floating modules.
+
+## Separator
+
+![Separator](img/9.jpg)
+
+Separates two connected modules and blocks both entries simultaneously. Recommended to print at least a pair for your setup.
